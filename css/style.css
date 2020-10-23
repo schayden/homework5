@@ -159,8 +159,9 @@ header{
 }
 
 .nav_links{
+  display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: column;
   align-self: center;
 }
 
@@ -217,13 +218,10 @@ header{
   /*Your code here again.*/
   /*You will want four selectors*/
 }
-@media (prefers-reduced-motion){
-  @keyframes logo_wiggle{
-  }
+@media (prefers-reduced-motion:reduce){
   #logo{
     /*Your code here.*/
-   animation-name: logo_wiggle;
-   animation-duration: 15s;
+   animation-name: none;
  }
  
 }
