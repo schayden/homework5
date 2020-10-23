@@ -215,15 +215,27 @@ header{
   .card {
     flex-basis: 200px;
   }
-  /*Your code here again.*/
-  /*You will want four selectors*/
+  body{
+    background-image: none;
+  }
+  .pricing{
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:flex-start;
+    /*Your code here.*/
+    /*Don't forget to vertically and horizontally alight the card*/
+}
+  .gallery{
+    display:none;
+  }
 }
 @media (prefers-reduced-motion:reduce){
   #logo{
     /*Your code here.*/
    animation-name: none;
  }
- 
 }
 /*Your code here again.*/
 /*Add media query to handle reduced-motion*/
