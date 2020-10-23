@@ -230,6 +230,9 @@ header{
   .gallery{
     display:none;
   }
+  #gallery{
+    display:none;
+  }
 }
 @media (prefers-reduced-motion:reduce){
   #logo{
